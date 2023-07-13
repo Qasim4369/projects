@@ -1,0 +1,3 @@
+Row : 0
+Col : 0
+Number of Components : 2
