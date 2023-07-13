@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>First Innings Score Predictor</title>
+        <link rel="shortcut icon" href="C:/Users/DELL/Desktop/Flask/Static/amazon-favicon.png">
+        <link rel="stylesheet" type="text/css" href="C:/Users/DELL/Desktop/Flask/Static/styles.css">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+        .footer {
+            position: fixed;
+            padding: -5px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: rgba(17, 4, 73, 0.671);
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Amazon Predictor for </span><span class="heading_second">BDA Project</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Pyspark Web App based on Flask</p>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- Amazon Banner - 1 -->
+            <div class='amazon-logo-left'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-up">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item1.png" alt="Rand1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item2.png" alt="Rand2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item3.png" alt="Rand3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item4.png" alt="Rand4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item5.png" alt="Rand5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item6.png" alt="Rand6">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item7.png" alt="Rand7">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+			<!-- Result -->
+			<div class="results">
+				<p class='result-p'>{{ prediction }}</p>
+			</div>
+
+            <!-- Amazon Banner - 2 -->
+            <div class='Amazon-banner-right'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-down">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item1.png" alt="Rand1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item2.png" alt="Rand2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item3.png" alt="Rand3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item4.png" alt="Rand4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item5.png" alt="Rand5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item6.png" alt="Rand6">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="C:/Users/DELL/Desktop/Flask/Static/random-item7.png" alt="Rand7">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://www.linkedin.com/in/hisham-ijaz-261978249"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Talha Tariq, Hisham Ijaz, Qasim Shafiq</p>
+       </div>
+    </body>
+</html>
